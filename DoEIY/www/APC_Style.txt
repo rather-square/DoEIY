@@ -1,0 +1,681 @@
+/*  APC/VLE combined Theme  */
+/*  Version: 0.0            */
+/*  Author: NMF             */
+/*  Date: 08MAR2022         */
+
+
+/*  Sets the color, shadow, and font options for the header */ 
+.skin-blue .main-header{
+  background-color: #FFFFFF;
+}
+.skin-blue .main-header .logo {
+  background-color: #FFFFFF;
+  color: #12375b;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/*  Sets the color for the header when the mouse hovers over it */ 
+.skin-blue .main-header .logo:hover {
+  background-color: #FFFFFF;
+}
+
+/*  Sets the color and shadow for the remainder of the header */ 
+.skin-blue .main-header .navbar {
+  background-color: #FFFFFF;
+  box-shadow: 5px 5px 10px #00000012;
+  border-radius: 0 !important;
+  margin-right: 0px;
+} 
+
+/*  Sets the color for the toggle button in the header */ 
+.skin-blue .main-header .navbar .sidebar-toggle {
+  background-color: #FFFFFF;
+  color: #12375b;
+}
+
+/*  Sets the color for the toggle button in the header when the mouse hovers over it */ 
+.skin-blue .main-header .navbar .sidebar-toggle:hover {
+  background-color: #12375b;
+  color: #FFFFFF;
+}
+
+/*  Sets the font for the entire app */
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, * {
+    font-family: 'Montserrat';
+}
+
+/*  Sets font size for body text  */
+.p, p, .a, a {
+  font-size: 14px;
+}
+
+/*  Sets the colors for the sidebar */ 
+.skin-blue .main-sidebar {
+  background-color: #FFFFFF;
+  color: #12375b;
+}
+
+/*  Sets the colors for the selected menu option on the sidebar */ 
+.skin-blue .main-sidebar .sidebar .sidebar-menu .active a{
+  background-color: #FFFFFF;
+  color: #00bc00;
+  border-left-color: #00bc00;
+}
+
+/*  Sets the colors for the unselected menu options on the sidebar  */
+.skin-blue .main-sidebar .sidebar .sidebar-menu a{
+  background-color: #FFFFFF;
+  color: #12375b;
+  border-left-color: #FFFFFF;
+}
+
+/*  Sets the background color for the main body */
+.content-wrapper, .right-side {
+  background-color: #F7F7F7;
+}
+.skin-blue .wrapper {
+    background-color: #F7F7F7;
+}
+
+/*  Creates colors for each emphasis text */
+.text-muted {
+  color: #BABABA;
+}
+.text-green {
+  color: #00bc00;
+}
+.text-blue {
+  color: #12375b;
+}
+.text-red {
+  color: #AF2222;
+}
+.text-white {
+  color: #FFFFFF;
+}
+.a, a {
+  color: #12375b;
+}
+
+/*  Sets formatting for NavBar  */
+.navbar {
+    background-color: #FFFFFF;
+    color: #12375b;
+    border-radius: 10px !important;
+    border: 1px solid #DBDBDB;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+/*  Sets the colors for the selected navbar option */ 
+.navbar-default .navbar-nav .active a{
+  background-color: #FFFFFF;
+  color: #12375b;
+  font-weight: bold;
+}
+
+/*  Sets the background color for a selected tab in the navbar */
+.navbar-default .navbar-nav .active a:focus,
+.navbar-default .navbar-nav .active a:hover {
+  background-color: #FFFFFF;
+  color: #12375b;
+  font-weight: bold;
+}
+
+
+/*  Sets formatting for tabsetPanel */
+.nav-tabs li a {
+  color: #555;
+}
+.nav-tabs li.active a,
+.nav-tabs li.active a:focus,
+.nav-tabs li.active a:hover {
+  color: #12375b !important;
+  font-weight: bold !important;
+}
+.nav-pills li.active a,
+.nav-pills li.active a:focus,
+.nav-pills li.active a:hover {
+    color: #FFFFFF;
+    background-color: #12375b;
+    border: none;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+
+/*  Sets action buttons */
+.btn-success {
+  background-color: #00bc00;
+  border-radius: 20px;
+  color: #FFFFFF;
+  text-align:  center;
+  font-weight: bold;
+  font-size: 14px;
+  height: 40px;
+  border: 2px solid #00bc00;
+}
+.btn-success:hover {
+  background-color: #00bc00;
+  color: #FFFFFF;
+  border: 2px solid #00bc00;
+  box-shadow: 0px 0px 3px #00bc00;
+}
+.btn-success:focus {
+  background-color: #00bc00;
+  color: #FFFFFF;
+  border: 2px solid #00bc00;
+}
+}
+
+.Grey-Button, .btn-default {
+  background-color: #666666 !imortant;
+  border-radius: 20px !imortant;
+  color: #FFFFFF !imortant;
+  text-align:  center !imortant;
+  font-weight: bold !imortant;
+  font-size: 14px !imortant;
+  height: 40px !imortant;
+  border: 2px solid #666666 !imortant;
+}
+.Grey-Button:hover, .btn-default:hover {
+  background-color: #666666 !imortant;
+  color: #FFFFFF !imortant;
+  border: 2px solid #666666 !imortant;
+  box-shadow: 0px 0px 3px #666666 !imortant;
+}
+.Grey-Button:focus, .btn-default:focus {
+  background-color: #666666 !imortant;
+  color: #FFFFFF !imortant;
+  border: 2px solid #666666 !imortant;
+}
+
+
+.Blue-Button, .btn-primary {
+  background-color: #12375b;
+  border-radius: 20px;
+  color: #FFFFFF;
+  text-align:  center;
+  font-weight: bold;
+  font-size: 14px;
+  height: 40px;
+  border: 2px solid #12375b;
+}
+.Blue-Button:hover, .btn-primary:hover {
+  background-color: #12375b;
+  color: #FFFFFF;
+  border: 2px solid #12375b;
+  box-shadow: 0px 0px 3px #12375b;
+}
+.Blue-Button:focus, .btn-primary:focus {
+  background-color: #12375b;
+  color: #FFFFFF;
+  border: 2px solid #12375b;
+}
+
+
+.Green-Button {
+  background-color: #00bc00;
+  border-radius: 20px;
+  color: #FFFFFF;
+  text-align:  center;
+  font-weight: bold;
+  font-size: 14px;
+  height: 40px;
+  border: 2px solid #00bc00;
+}
+.Green-Button:hover {
+  background-color: #00bc00;
+  color: #FFFFFF;
+  border: 2px solid #00bc00;
+  box-shadow: 0px 0px 3px #00bc00;
+}
+.Green-Button:focus {
+  background-color: #00bc00;
+  color: #FFFFFF;
+  border: 2px solid #00bc00;
+}
+
+
+.White-Blue-Button {
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  color: #12375b;
+  text-align:  center;
+  font-weight: bold;
+  font-size: 14px;
+  height: 40px;
+  border: 2px solid #12375b;
+}
+.White-Blue-Button:hover {
+  background-color: #FFFFFF;
+  color: #12375b;
+  border: 2px solid #12375b;
+  box-shadow: 0px 0px 3px #12375b;
+}
+.White-Blue-Button:focus {
+  background-color: #FFFFFF;
+  color: #12375b;
+  border: 2px solid #12375b;
+}
+
+
+.White-Green-Button {
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  color: #00bc00;
+  text-align:  center;
+  font-weight: bold;
+  font-size: 14px;
+  height: 40px;
+  border: 2px solid #00bc00;
+}
+.White-Green-Button:hover {
+  background-color: #FFFFFF;
+  color: #00bc00;
+  border: 2px solid #00bc00;
+  box-shadow: 0px 0px 3px #00bc00;
+}
+.White-Green-Button:focus {
+  background-color: #FFFFFF;
+  color: #00bc00;
+  border: 2px solid #00bc00;
+}
+
+
+.Light-Grey-Button {
+  background-color: #E4E4E4;
+  border-radius: 20px;
+  color: #000000;
+  text-align:  center;
+  font-weight: bold;
+  font-size: 14px;
+  height: 40px;
+  border: 2px solid #E4E4E4;
+}
+.Light-Grey-Button:hover {
+  background-color: #E4E4E4;
+  color: #000000;
+  border: 2px solid #E4E4E4;
+  box-shadow: 0px 0px 3px #E4E4E4;
+}
+.Light-Grey-Button:focus {
+  background-color: #E4E4E4;
+  color: #000000;
+  border: 2px solid #E4E4E4;
+}
+
+
+/*  Sets formatting for CheckBox  */
+.checkbox input[type=checkbox], 
+.checkbox-inline input[type=checkbox] {
+ accent-color: #12375b;
+}
+
+/*  Sets formatting for pretty checkbox */
+.pretty.p-default input:checked~.state label:after {
+  background-color: #00bc00 !important;
+}
+.pretty.p-default .state label:before {
+  border-color: #666666;
+}
+input[type="checkbox" i] {
+    border-radius: 10px;
+}
+
+
+/*  Sets formatting for Radiobuttons  */
+.radio {
+  accent-color: #12375b;
+}
+
+/* Adjusts formatting for pretty radiobuttons */
+input[type=radio] {
+  border-radius: 100%;
+}
+
+/*  Sets formatting for material Switches  */
+.material-switch .label-default,  
+.material-switch .label-primary, 
+.material-switch .label-info, 
+.material-switch .label-success, 
+.material-switch .label-warning, 
+.material-switch .label-danger{
+  background-color: #00bc00 !important;
+}
+
+
+/*  Sets formatting for bootstrap switches  */
+.bootstrap-switch .bootstrap-switch-handle-on {
+  background-color: #00bc00 !important;
+}
+.bootstrap-switch {
+  border-color: #E4E4E4;
+  outline: 0 !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+
+/*  Sets slider formatting */
+.irs--shiny .irs-bar {
+  border-top: 1px solid #12375b;
+  border-bottom: 1px solid #12375b;
+  background: #12375b;
+}
+.irs--shiny .irs-from, .irs--shiny .irs-to, .irs--shiny .irs-single {
+    color: #FFFFFF;
+    background-color: #12375b;
+}
+.irs-grid-text, .irs--shiny .irs-min, .irs--shiny .irs-max {
+  font-size: 0.8em;
+}
+.irs-grid-pol.small {
+  height: 0px;
+}
+
+
+/*  Sets tableoutput formatting */
+.table tbody tr td, .table tbody tr th, 
+.table tfoot tr td, .table tfoot tr th, 
+.table thead tr td, .table thead tr th {
+  border-top: 1px solid #BABABA;
+}
+.table caption+thead tr:first-child td, 
+.table caption+thead tr:first-child th, 
+.table colgroup+thead tr:first-child td, 
+.table colgroup+thead tr:first-child th, 
+.table thead:first-child tr:first-child td, 
+.table thead:first-child tr:first-child th {
+  border-bottom: 1px solid #666666;
+}
+
+
+/*  Sets datatable formatting */
+.dataTables_wrapper .dataTables_paginate .paginate_button.current,
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+  border: 0px;
+  color: #FFFFFF !important;
+  background: #12375b !important;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+  color: #333 !important;
+  border: 0px !important;
+  background: #E4E4E4 !important;
+}
+
+/*  Sets form input formatting  */
+.form-control {
+  border: 1px solid #BABABA;
+  border-radius: 4px;
+  format: 'dd-mon-yyyy',
+}
+.datepicker table tr td.active:active, 
+.datepicker table tr td.active.active, 
+.datepicker table tr td.active.highlighted:active, 
+.datepicker table tr td.active.highlighted.active {
+    color: #FFFFFF;
+    background-color: #00bc00;
+    border-color: #00bc00;
+}
+.input-daterange, .input-group .form-control,
+.input-group-addon, .input-group-btn {
+  height: 34px;
+}
+.input-daterange .input-group-addon {
+  color: #FFFFFF;
+  background-color: #12375b;
+  border: 1px #12375b;
+}
+
+
+/*  Sets file input formatting  */
+.input-group-btn:first-child .btn, 
+.input-group-btn:first-child .btn-group {
+  color: #FFFFFF;
+  background-color: #12375b;
+  height: 34px;
+   border: 1px #12375b;
+}
+.input-group-btn:first-child .btn:hover, 
+.input-group-btn:first-child .btn-group:hover {
+  color: #FFFFFF;
+  background-color: #12375b;
+  height: 34px;
+  border: 1px #12375b;
+  box-shadow: 0px 0px 3px #12375b;
+}
+.input-group .form-control:last-child,
+.input-group .form-control:last-child:focus,
+.input-group .form-control:last-child:hover{
+  border: 1px solid #BABABA;
+}
+.shiny-file-input-progress {
+  display: none
+}"
+
+
+/*  Sets formatting for Select Picker */
+.bootstrap-select .dropdown-toggle.bs-placeholder,
+.bootstrap-select .dropdown-toggle.bs-placeholder:active,
+.bootstrap-select .dropdown-toggle.bs-placeholder:focus,
+.bootstrap-select .dropdown-toggle.bs-placeholder:hover{
+  background-color: #12375b !important;
+  color: #FFFFFF !important;
+  border-radius: 0px !important;
+  border: 1px solid #12375b !important;
+  box-shadow: none !important;
+}
+.open .dropdown-toggle.btn-default,
+.open .dropdown-toggle.btn-default:active, 
+.open .dropdown-toggle.btn-default:focus, 
+.open .dropdown-toggle.btn-default:hover{
+  background-color: #12375b !important;
+  color: #FFFFFF !important;
+  border-radius: 0px !important;
+  border: 1px solid #12375b !important;
+  box-shadow: none !important;
+}
+.dropdown-toggle.btn-default,
+.dropdown-toggle.btn-default:active, 
+.dropdown-toggle.btn-default:focus, 
+.dropdown-toggle.btn-default:hover {
+  background-color: #12375b !important;
+  color: #FFFFFF !important;
+  border-radius: 0px !important;
+  border: 1px solid #12375b !important;
+  box-shadow: none !important;
+}
+.bootstrap-select .dropdown-toggle.bs-placeholder:hover,
+.open .dropdown-toggle.btn-default:hover,
+.dropdown-toggle.btn-default:hover {
+  box-shadow: 0px 0px 3px #12375b !important;
+}
+
+.btn-group .btn:first-child:not(:last-child):not(.dropdown-toggle),
+.btn-group .btn:last-child:not(:first-child):not(.dropdown-toggle) {
+  color: #FFFFFF;
+  border-radius: 20px;
+  width: 45%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  height: 32px;
+  box-shadow: none;
+}
+.btn-group .btn:first-child:not(:last-child):not(.dropdown-toggle) {
+  background-color: #00bc00;
+  border: 1px solid #00bc00;
+}
+.btn-group .btn:last-child:not(:first-child):not(.dropdown-toggle) {
+  background-color: #666666;
+  border: 1px solid #666666;
+}
+.btn-group .btn:first-child:not(:last-child):not(.dropdown-toggle):hover {
+  box-shadow: 0px 0px 3px #00bc00;
+}
+.btn-group .btn:last-child:not(:first-child):not(.dropdown-toggle):hover {
+  box-shadow: 0px 0px 3px #666666;
+}
+
+
+/*  Sets formatting for shiny notifications */
+.shiny-notification, 
+.shiny-notification-default {
+  color: #FFFFFF;
+  background-color: #00bc00;
+  border: 1px solid #00bc00;
+  opacity: 1;
+}
+.shiny-notification-message {
+  color: #FFFFFF;
+  background-color: #12375b;
+  border: 1px solid #12375b;
+  opacity: 1;
+}
+.shiny-notification-warning {
+  color: #FFFFFF;
+  background-color: #F08217;
+  border: 1px solid #F08217;
+  opacity: 1;
+}
+.shiny-notification-error {
+  color: #FFFFFF;
+  background-color: #D11F1F;
+  border: 1px solid #D11F1F;
+  opacity: 1;
+}
+.shiny-notification-success {
+  color: #FFFFFF;
+  background-color: #D11F1F;
+  border: 1px solid #D11F1F;
+  opacity: 1;
+}
+.shiny-notification-close {
+  font-size: 24px;
+  bottom: 9px;
+  color: #BABABA;
+  cursor: default;
+  opacity: 1;
+}
+
+
+/*  Sets formatting for progress bar  */
+.shiny-progress-notification{
+  color: #FFFFFF
+}
+.progress-bar.active, .progress.active .progress-bar {
+  background-image: linear-gradient(45deg, 
+    rgba(255, 255, 255, 0.15) 25%,
+    transparent 25%, 
+    transparent 50%,
+    rgba(255, 255, 255, 0.15) 50%,
+    rgba(255, 255, 255, 0.15) 75%, 
+    transparent 75%, 
+    transparent);
+  background-size: 1rem 1rem;
+}
+
+
+/*  Sets waiter formatting  */
+.waiter-overlay {
+  background-color: #12375b !important;
+}
+/*  Sets waitress formatting  */
+.progressjs-theme-blueOverlay .progressjs-inner,
+.progressjs-theme-blueOverlayRadiusWithPercentBar .progressjs-inner {
+    background-color: #12375b !important;
+}
+
+
+/*  Sets formatting for well panel  */
+.well {
+    background-color: #ffffff;
+    border: 1px solid #DBDBDB;
+    border-radius: 4px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+
+/*  Sets formatting for boxes */
+.box.box-solid.box-danger .box-header {
+    color: #fff;
+    background: #D11F1F;
+    background-color: #D11F1F;
+}
+.box.box-solid.box-danger {
+    border: 1px solid #D11F1F;
+}
+.box.box-solid.box-warning .box-header {
+    color: #FFFFFF;
+    background: #F08217;
+    background-color: #F08217;
+}
+.box.box-solid.box-warning {
+    border: 1px solid #F08217;
+}
+.box.box-solid.box-primary .box-header {
+    color: #FFFFFF;
+    background: #3BAFDA;
+    background-color: #3BAFDA;
+}
+.box.box-solid.box-primary {
+    border: 1px solid #3BAFDA;
+}
+.box.box-solid.box-success .box-header {
+    color: #FFFFFF;
+    background: #00bc00;
+    background-color: #00bc00;
+}
+.box.box-solid.box-success {
+    border: 1px solid #00bc00;
+}
+.box.box-solid.box-info .box-header {
+    color: #FFFFFF;
+    background: #3BAFDA;
+    background-color: #3BAFDA;
+}
+.box.box-solid.box-info {
+    border: 1px solid #3BAFDA;
+}
+.box-body {
+  background-color: #FFFFFF;
+}
+
+
+/*  Sets tabBox formatting  */
+.nav-tabs-custom .nav-tabs li.active {
+  border-top-color: #00bc00;
+}
+
+
+/*  Sets infoBox formatting */
+.bg-aqua {
+  background-color: #3BAFDA!important;
+}
+
+
+/*  Sets dropdownButton formatting  */
+.btn.btn-circle,
+.btn.btn-circle:hover,
+.btn.btn-circle:focus {
+  border-radius: 100% !important;
+}
+
+/* creates formatting for horizontal rule */
+hr {  
+  border-top: 2px solid #3BAFDA;
+}
+
+/* updates formatting for shinydashboardplus boxes */
+.box.box-primary {
+  border-color: #3BAFDA;
+}
+.box-header {
+  margin-top: -40px;
+}
+.box.box-solid.box-primary .box-header {
+  border-radius: 3px;
+}
