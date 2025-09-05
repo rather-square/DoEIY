@@ -178,4 +178,60 @@ The **ANOVA** subtab reports model fit and term significance. Outputs include:
 
 - A **parity plot** (predicted vs. observed values).
 - Summary metrics: $R^2$, adjusted $R^2$, the $F$-statistic, and the overall $p$-value.
-- An **ANOVA table
+- An **ANOVA table** listing degrees of freedom, sum of squares, mean square, $F$-statistic, and $p$-values.
+- An **Estimates table** showing coefficients, standard errors, $t$-statistics, and $p$-values.
+
+![ANOVA Results](figures/ANOVA_Results.png)  
+*ANOVA Results. The ANOVA subtab, showing the parity plot, model fit metrics, and excerpts from the ANOVA and Estimates tables.*
+
+## Design Diagnostics
+
+The **Design Diagnostics** subtab provides tools to evaluate the quality of the fitted model.
+
+- **Alias structure:** identifies terms that cannot be distinguished due to the design.
+- **Correlation heatmap:** visualises collinearity among model terms.
+
+![Diagnostics](figures/Diagnostics.png)  
+*Diagnostics. The Design Diagnostics subtab, showing an alias report and a correlation heatmap.*
+
+# Model Explorer
+
+The **Model Explorer** tab allows you to interact with your fitted model. It contains two subtabs: **Visualizer** and **Interact**.
+
+## Visualizer
+
+The **Visualizer** subtab displays plots of the response against each factor. Sliders allow you to adjust factor values interactively.
+
+![Factor-Response Visualizer](figures/Visualizer.png)  
+*Factor-Response Visualizer. The Visualizer subtab, showing factor-response plots with sliders and a predicted response read-out.*
+
+## Interact (Optimisation and Targeting)
+
+The **Interact** subtab lets you optimise or target a response value.
+
+- Choose a goal: **Maximise**, **Minimise**, or **Find Target**.
+- For **Find Target**, enter the target response value.
+- Optionally provide starting values for the factors.
+- Click **Run** to obtain factor settings and the predicted response.
+
+![Interact Optimisation](figures/Interact.png)  
+*Interact Optimisation. The Interact subtab, showing goal selection, optional starting values, and the returned solution.*
+
+# DoE Glossary
+
+Before using DoEIY, it is helpful to review some core DoE terminology:
+
+- **Factors** are the variables you choose to study and deliberately control.
+- **Levels** are the values for each factor that are investigated.
+- The **Design Space** is the multi-dimensional region defined by the factors.
+- A **Response** is the measured output(s) of interest.
+- **Blocking** is a way to group experimental runs to account for known variability.
+- An **Interaction** is when the effect of one factor depends on another.
+- A **Run** is a single execution of the experiment.
+- **Aliasing** occurs when effects of two or more factors cannot be distinguished.
+- **Correlation** describes how strongly two model terms vary together.
+- **ANOVA** partitions total variability to test significance of terms.
+- **Rotatability** ensures prediction precision depends only on distance from the centre.
+- **Orthogonality** ensures estimates of model terms are uncorrelated.
+
+[^1]: Corresponding author: <s.guldin@ucl.ac.uk>
